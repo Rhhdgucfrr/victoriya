@@ -1,0 +1,18 @@
+.control{
+
+    width:400px;
+    height: 100%;
+}
+
+.control1{
+
+   
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

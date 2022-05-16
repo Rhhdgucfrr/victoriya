@@ -1,0 +1,37 @@
+.content{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 20px;
+    width: 640px;   
+    color: rgb(85, 85, 85);   
+}
+.Information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

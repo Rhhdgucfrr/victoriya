@@ -1,0 +1,40 @@
+.left{
+ 
+    width: 30%;
+
+}
+.center{
+
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    display: flex;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px 1px  rgb(189, 187, 187);
+    justify-content: center;
+
+
+    width: 1200px;
+   
+}
+.right{
+ 
+    width: 30%;
+   
+}
+
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.centerItem{
+    display: flex;
+    flex-direction: column;
+  
+}
+.contentItemBody{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.content-left{
+  position: relative;
+  padding-left: 4rem;
+  top:172px;
+}
+
+.content-right{  
+ 
+    display: flex;
+    padding-left: 12rem;
+    background-color: #fff;
+    width: 1000px;
+    padding-right: 12rem;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+  
+}
+.content{
+
+  display: flex;
+  height: 100%;
+  
+  justify-content: space-between;
+  
+}
+.title{
+  margin-left: 40px;
+}
+
+
+

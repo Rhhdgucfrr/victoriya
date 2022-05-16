@@ -1,0 +1,24 @@
+.leftform{
+    padding-top: 15px;
+    padding-right: 30px;
+  
+
+    
+}
+.rightform{
+    padding-top: 15px;
+    padding-left: 30px;
+  
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+ 
+}
+
+.formbutton{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+}

@@ -1,0 +1,76 @@
+.state
+{
+
+    display: flex;
+    justify-content: center;   
+    height:25px;  
+   
+    font-size: 12px;
+    background-color: #d6f8d3;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    color:#6d9e69;
+}
+.state.silver{
+    background-color: #eeeff1;
+    color: rgb(138, 138, 141);    
+}
+.state.blue{
+    background-color: #e8f5fa;
+    color: #34b2e8;    
+}
+.state.red{
+    background-color: #faeaea;
+    color: rgba(212, 14, 14, 0.685);    
+}
+.ssss:hover{
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 172);
+    cursor:pointer;
+}
+.rightbutton{
+    display: flex;
+    width: 100%;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.accordionDetails{
+    display: flex;
+    width: 100%;
+  
+    height: 100%;
+    flex-direction: column;
+}
+.accordionDetailsContent{
+    display: flex;
+    width: 100%;
+    
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.accordionDetailsContentItem{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30%;
+  
+}
+.accordionDetailsItemContent
+{    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+.accordionDetailsItemContentRight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.detailContent{
+    margin-top: 20px;
+}
