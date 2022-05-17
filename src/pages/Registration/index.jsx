@@ -167,13 +167,13 @@ function Registration() {
                 Registration
               </Button>
               <Button
-                color="inherit"
+                color="#303f9f"
                 type="submit"
                 className={classes.buttonSpacing}
                 component={Link}
                 to="/login"
               >
-                Already have an account?
+                have an account?
               </Button>
             </Grid>
           </Grid>

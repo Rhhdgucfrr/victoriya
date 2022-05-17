@@ -17,8 +17,7 @@ function Home() {
             Homepage
           </Typography>
           <Typography variant="body1" gutterBottom>
-            This is demo app with login, registration and updating profile
-            flows.
+            go to /login
           </Typography>
         </Grid>
       </Grid>

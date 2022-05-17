@@ -139,7 +139,7 @@ function Login() {
                 Login
               </Button>
               <Button
-                color="inherit"
+                color="#303f9f"
                 type="submit"
                 className={classes.buttonSpacing}
                 component={Link}
